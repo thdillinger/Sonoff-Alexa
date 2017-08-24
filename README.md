@@ -15,7 +15,7 @@ Features include (~~strikethrough~~ = not implemented yet)
 - web configuration portal to setup tokes, servers, ports, hostnam and invokatio name
 - OTA over the air firmware update
 - ~~Blynk integration~~
-- turn off and on relay from onboard button, short button press.
+- turn off and on relay from onboard button, by short button press.
 - medium button press (> four sec.)- reset
 - long button press (> eight sec.)- reset the WiFi settings and restart
 - turn off/on and timer set from a webfrontend 
