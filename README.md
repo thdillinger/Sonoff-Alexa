@@ -36,3 +36,5 @@ Being your first run, connect to the Access Point the module created and configu
 After it's configured and connected, the green LED should stay off, and the relay should be disabled (this is the default).
 
 OTA should also be enabled now and you can do future updates over the air.
+
+Further information can be found at our website [Sonoff Hack für Alexa von Amazon](http://dillinger-engineering.de/sonoff-switch-mit-webfrontend-und-alexa-amazon/2017/08/).
