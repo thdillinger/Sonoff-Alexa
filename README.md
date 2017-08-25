@@ -1,7 +1,6 @@
 # Sonoff-Alexa
-ESP8266 source for a ITEAD-Sonoff to connect directly with Alexa from Amazon.
-
-This is a replacement firmware (Arduino IDE with ESP8266 core needed) for the ESP8266 based Sonoff devices. Use it as a starting block for customizing your Sonoff.
+Alternate firmware for the ITEAD-Sonoff based on the Arduino port of ESP8266ESP8266 source for a ITEAD-Sonoff to connect directly with Alexa from Amazon. This source is a replacement for the ESP8266 based Sonoff devices.
+Use it as a starting block for customizing your Sonoff.
 
 ## What's a "Sonoff"?
 Sonoff is just a small ESP8266 based module, that can toggle mains power on it's output. It has everything included in a nice plastic package.
@@ -19,8 +18,6 @@ Features include (~~strikethrough~~ = not implemented yet)
 - medium button press (> four sec.)- reset
 - long button press (> eight sec.)- reset the WiFi settings and restart
 - turn off/on and timer set from a webfrontend 
-
-If you want a more complete/complex firmware you should check out the [Sonoff-MQTT-OTA-Arduino](https://github.com/arendst/Sonoff-MQTT-OTA-Arduino) project.
 
 ## Getting started
 First of all you will need to solder a 4 or 5 pin header on your Sonoff so you can flash the new firmware.
