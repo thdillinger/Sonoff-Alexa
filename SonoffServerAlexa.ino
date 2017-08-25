@@ -1,8 +1,7 @@
-/* Th.Dillinger, www.dillinger-engineering.de 
- * Diese Vorlage beinhaltet die folgenden Optionen 
- * Captiv Portal für die Anmeldung an einen lokalen WLAN Router wenn die automatische Verbindung scheitert
- * OTA Update
- * Anmeldung an Amazone Alexa und und einem Webbrowser 
+ /* This template includes the following options
+  * Captiv Portal for logging on to a local WLAN router if the automatic connection fails
+  * OTA update
+  * Amazone Alexa suport and an integrated web browser 
 
    4MB/512SPIFFS flash sizee Memory replaced
 
@@ -23,7 +22,7 @@
 #include "SonoffServerAlexa.h"
 
 /* MDNSResponder is neded for
- *  For Mac OSX support is built in through Bonjour already.
+ * For Mac OSX support is built in through Bonjour already.
    For Linux, install Avahi.
    For Windows, install Bonjour. */
 //MDNSResponder mdns;    
@@ -151,8 +150,8 @@ void toggle() {
 
 void starttimer(){
   turnOn();  // Relais ein
-  TimeCounter = OnTime * 60; // Zeit in Sekunden
-  ticker.attach(2, tick);    // langsames 2 Sek. Blinken der LED
+  TimeCounter = OnTime * 60; // timer preset time
+  ticker.attach(2, tick);    // slow blinking led (2 Sec.)
   #ifdef SER_DEBUG
     Serial.println("Timer stopp");
   #endif  
@@ -187,7 +186,7 @@ void reset() {
   //reset settings to defaults 
     WMSettings defaults;
     settings = defaults;
-    writeTimeToEEprom(5);  // Default 5 Minutes
+    writeTimeToEEprom(5);  // Default 5 minutes
   //reset wifi credentials
   WiFi.disconnect();
   delay(1000);
