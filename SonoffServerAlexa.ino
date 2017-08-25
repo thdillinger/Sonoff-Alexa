@@ -1,4 +1,5 @@
- /* This template includes the following options
+ /* By Th. Dillinger http://dillinger-engineering.de
+  * This template includes the following options
   * Captiv Portal for logging on to a local WLAN router if the automatic connection fails
   * OTA update
   * Amazone Alexa suport and an integrated web browser 
