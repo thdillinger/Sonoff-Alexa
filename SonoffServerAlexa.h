@@ -26,6 +26,7 @@
   String GetwebPage();
   void turnOn();
   void turnOff();
+  void toggle();
   void starttimer();
   void writeTimeToEEprom(int Time);
 #endif

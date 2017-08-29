@@ -70,6 +70,10 @@ void Switch::startWebServer(){
   server->on("/off", [&](){
     handleEventOff();
   });
+  
+  server->on("/toggle", [&](){
+    handleEventToggle();
+  });
 
   server->on("/timer", [&](){
     handleEventTimer();
@@ -213,6 +217,13 @@ void Switch::handleEventOff(){
     HandleParameter();
     server->send(200, "text/html", GetwebPage());
     delay(1000);  
+}
+
+void Switch::handleEventToggle(){
+    toggle();
+    HandleParameter();
+    server->send(200, "text/html", GetwebPage());
+    delay(1000); 
 }
 
 void Switch::handleEventTimer(){

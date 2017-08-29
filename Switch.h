@@ -26,6 +26,7 @@ private:
         void handleRoot();
         void handleEventOn();
         void handleEventOff();
+        void handleEventToggle();
         void handleEventTimer();
         void handleEventTime();
         void HandleParameter(); 

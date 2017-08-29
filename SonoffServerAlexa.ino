@@ -2,7 +2,8 @@
   * This template includes the following options
   * Captiv Portal for logging on to a local WLAN router if the automatic connection fails
   * OTA update
-  * Amazone Alexa suport and an integrated web browser 
+  * Amazone Alexa suport and an integrated web browser
+  * Function parameter toggle for Webserverinterface integrated, it is nessesary for a Remotecontoll via http-Dashbutton
 
    4MB/512SPIFFS flash sizee Memory replaced
 
