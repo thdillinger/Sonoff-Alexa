@@ -19,7 +19,7 @@ Features include (~~strikethrough~~ = not implemented yet)
 - long button press (> eight sec.)- reset the WiFi settings and restart
 - turn off/on and timer set from a webfrontend 
 - Integration of a new function in the web frontend called toggle.
-  This function is required for a remote control, see Project Dashbutton.
+  This function is required for a remote control, see Project Dashbutton. See more here [Sonoff-Alexa](https://github.com/thdillinger/Sonoff-Dashbutton)
 
 ## Getting started
 First of all you will need to solder a 4 or 5 pin header on your Sonoff so you can flash the new firmware.
